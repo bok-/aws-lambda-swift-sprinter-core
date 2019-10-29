@@ -204,7 +204,7 @@ public struct Context {
         return environment[key.rawValue]
     }
 
-    internal var environment: [String: String]
+    public var environment: [String: String]
 
     // MARK: init
     public init(environment: [String: String], responseHeaders: [AnyHashable: Any]) throws {
